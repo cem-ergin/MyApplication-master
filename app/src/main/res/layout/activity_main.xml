@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.onur.myapplication.MainActivity">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainTitle"
+            android:text="YAPRAK TANIMA"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            />
+    <!--<Button-->
+        <!--android:id="@+id/egitim"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Verileri egit"-->
+        <!--tools:layout_editor_absoluteX="148dp"-->
+        <!--tools:layout_editor_absoluteY="28dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/egitimTest"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="egitim test"-->
+        <!--tools:layout_editor_absoluteX="148dp"-->
+        <!--tools:layout_editor_absoluteY="28dp" />-->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Yakın Yaprak Türleri:"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/red"
+            android:layout_below="@+id/mainTitle"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/firstImage"
+            android:layout_below="@+id/title"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/first"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Yakın Yaprak Türleri:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/green"
+            android:layout_toRightOf="@+id/firstImage"
+            android:layout_below="@+id/title"
+
+
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/secondImage"
+            android:layout_below="@+id/firstImage"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Yakın Yaprak Türleri:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/maroon"
+            android:layout_below="@+id/firstImage"
+            android:layout_toRightOf="@id/secondImage"
+
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/thirdImage"
+            android:layout_below="@+id/secondImage"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Yakın Yaprak Türleri:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blue"
+            android:layout_below="@+id/secondImage"
+            android:layout_toRightOf="@id/thirdImage"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/egitimTest"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/teal"
+            android:padding="10dp"
+            android:text="Doğruluk Hesapla"
+            android:textColor="@color/white" />
+
+
+
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/baseline_camera_alt_white_18dp"
+        android:layout_margin="20dp" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
