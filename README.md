@@ -1,4 +1,4 @@
-For english readme file, press [here](https://github.com/cem-ergin/MyApplication-master/blob/master/READMEnglish.md).
+Click [here](https://github.com/cem-ergin/MyApplication-master/blob/master/READMEnglish.md) for english readme file.
 
 # Proje Hakkında
 
