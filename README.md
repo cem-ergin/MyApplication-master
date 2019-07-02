@@ -1,3 +1,5 @@
+For english readme file, press [here](https://github.com/cem-ergin/MyApplication-master/blob/master/READMEnglish.md).
+
 # Proje Hakkında
 
 ![alt text](https://media.giphy.com/media/fYr1JsxgH6jMLEPYrS/giphy.gif
