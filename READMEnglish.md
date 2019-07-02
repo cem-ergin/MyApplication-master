@@ -3,7 +3,32 @@
 ![alt text](https://media.giphy.com/media/fYr1JsxgH6jMLEPYrS/giphy.gif
 )
 
-Flavia and Swedish datasets were used for leaf recognition. The k-NN and SVM algorithms were used as the classification method.
+[Flavia](http://flavia.sourceforge.net/) and [Swedish](http://www.cvl.isy.liu.se/en/research/datasets/swedish-leaf/) datasets were used for leaf recognition. The k-NN and SVM algorithms were used as the classification method.
+
+Firstly, the canny algorithm was used to obtain the edge points of the image.
+![preprocessing steps](https://i.imgyukle.com/2019/07/02/kvqMAp.png)
+
+Various attributes were obtained from the image where the edge points were obtained;
+
+1- Ratio of leaf width to length
+
+2- Ratio of leaf circumference to length and width
+
+3- The ratio of the area of the leaf to the product of its length and width
+
+4- The ratio of the diameter of the leaf to the sum of the maximum and minimum distances to the center of gravity of the peripheral points
+
+5- The ratio of the distance of the two furthest points of the leaf from each other to the center of gravity
+
+6- The first 50 of 256 LBP attributes.
+
+Image of attributes saved in txt file:
+
+![txt attributes](https://i.imgyukle.com/2019/07/02/kv2ET1.png)
+
+Confusion matrix:
+
+![confusion matrix](https://i.imgyukle.com/2019/07/02/kv2RvI.md.png)
 
 ## Installation
 
