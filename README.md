@@ -5,7 +5,7 @@ Click [here](https://github.com/cem-ergin/MyApplication-master/blob/master/READM
 ![alt text](https://media.giphy.com/media/fYr1JsxgH6jMLEPYrS/giphy.gif
 )
 
-Flavia ve Swedish verisetleri kullanılarak yaprak tanıma uygulaması yapılması amaçlanmıştır. Sınıflandırma yöntemi olarak k-NN ve SVM algoritmaları kullanılmıştır.
+[Flavia](http://flavia.sourceforge.net/) ve [Swedish](http://www.cvl.isy.liu.se/en/research/datasets/swedish-leaf/) verisetleri kullanılarak yaprak tanıma uygulaması yapılması amaçlanmıştır. Sınıflandırma yöntemi olarak k-NN ve SVM algoritmaları kullanılmıştır.
 
 ## Yükleme
 
